@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import State from "./final";
+//import?
+import "./App.css";
 
 function App() {
+  //counter init
+
+  //increase function
+  const increase = () => {};
+
+  //decrease function
+  const decrease = () => {};
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button onClick={increase}> + </button>
+        <div> {0} </div>
+        <button onClick={decrease}> - </button>
       </header>
     </div>
+    // <State></State>
   );
 }
 
