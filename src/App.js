@@ -1,4 +1,4 @@
-import State from "./final";
+// import State from "./final";
 //import?
 import "./App.css";
 
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <button onClick={increase}> + </button>
-        <div> {0} </div>
+        <h1> 0 </h1>
         <button onClick={decrease}> - </button>
       </header>
     </div>

@@ -26,7 +26,7 @@ function State() {
     <div className="App">
       <header className="App-header">
         <button onClick={increase}> + </button>
-        <div> {count} </div>
+        <h1> {count} </h1>
         <button onClick={decrease}> - </button>
       </header>
     </div>
